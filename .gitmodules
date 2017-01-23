@@ -1,0 +1,3 @@
+[submodule "NetworkView"]
+	path = NetworkView
+	url = https://github.com/OPEXGroup/NetworkView.git
