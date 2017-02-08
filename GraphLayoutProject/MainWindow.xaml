@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GraphLayoutProject"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="640" Width="800">
     <Grid>
-        
+        <Button Name="Button" Height="25" Width="150" VerticalAlignment="Top" HorizontalAlignment="Right"
+                 Click="Button_OnClick"
+                >Click</Button>
+        <Canvas Name="GraphCanvas"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch">
+
+        </Canvas>
     </Grid>
 </Window>
